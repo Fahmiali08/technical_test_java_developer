@@ -28,12 +28,14 @@ This API provides endpoints for registering and borrowing books.
    git clone https://github.com/Fahmiali08/technical_test_java_developer.git
 
 2. Navigate to the project directory:
-	cd fahmi.ali
+	cd technical_test_java_developer
 3. Configure the database connection in the application.properties file:
 spring.datasource.url=jdbc:your database url
 spring.datasource.username=your username
 spring.datasource.password=your password
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+4. import Database from book_db.sql
 
 4. Build the project
 ```mvn clean install```
